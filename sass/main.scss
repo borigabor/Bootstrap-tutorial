@@ -1,0 +1,23 @@
+$primary: #c29938;
+$light: #fbf5e5;
+
+// import the functions & variables
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+$custom-theme-colors: (
+    "altlight": #f2ebfa,
+    "altdark": #552192
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+/*
+1 lépés npm init
+2 lépés npm install bootstrap
+3 lépé create sass 
+setting path css folder
+watch Sass
+*/
